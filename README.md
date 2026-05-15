@@ -15,6 +15,8 @@ and run it with ./SU3_QuantumTrajectories
 
 Simulation results are written to: ./output
 
+NB: The code uses [PETSC](https://petsc.org/release/) and [SLEPC](https://slepc.upv.es/release/) libraries. The CMAKE file needs to be modified according to the installation location.
+
 ## Usage
 
 An example of the usage is given in main.cpp
